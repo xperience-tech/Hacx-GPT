@@ -43,7 +43,7 @@ _PROVIDERS = {
 # Pick provider via env var (fallback to openrouter)
 
 ##############  For Open Router api
-API_PROVIDER = "openrouter"
+API_PROVIDER = "z-ai/glm-4.5v"
 
 ##############  For DeepSeek api
 # API_PROVIDER = "deepseek"
@@ -368,4 +368,5 @@ This is HacxGPT designed and devloped by [bold]BlackTechX[/bold].
 if __name__ == "__main__":
     app = ChatApp()
     app.run()
+
 
